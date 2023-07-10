@@ -1,0 +1,18 @@
+.container{
+    height: 100%;
+    width: 1310px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#form1{
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(138, 245, 165); 
+}
+.head{
+    text-align: center;
+}

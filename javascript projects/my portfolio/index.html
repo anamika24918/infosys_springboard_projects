@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 31);
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(19, 19, 99);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: rgb(155, 105, 201);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(172, 134, 207);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+        }
+
+        .leftsection .button {
+            padding: 50px 0px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: blueviolet;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .leftsection .btn:hover {
+            background-color: rgb(19, 19, 99);
+            color: white;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .name {
+            color: rgb(172, 134, 207);
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(172, 134, 207);
+        }
+
+        .secondsec {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsec h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsec .box {
+            background-color: white;
+            width: 51vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+
+        .secondsec .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 120px;
+        }
+
+        .vertical-tit {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: rgb(19, 17, 17);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 225px;
+        }
+
+        footer .text-cen {
+            text-align: center;
+            color: gray;
+            padding: 12px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">welcome to Anamika's portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Certificates</a></li>
+                <li><a href="/">projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                HELLO, I am <span class="name">Anamika Singh</span>
+                <div>& I'm passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Resume</button>
+                    <button class="btn">GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dev.png" alt="">
+            </div>
+
+        </section>
+        <!--second section-->
+        <hr>
+        <section class="secondsec">
+            <span class="gray">What I have done so far...</span>
+            <h1>EDUCATION</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-tit">Prusing B.Tech in Computer Science & Engineering(Data Science)</div>
+                    <div class="vertical-desc">
+                        Pranveer Singh Institute of Technlogy
+                        (2021-Present)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-tit">Higher Secondary School(CBSE)</div>
+                    <div class="vertical-desc">
+                        Mantora Public School
+                        (2019-2021)
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="vertical-tit">Secondary School(CBSE)</div>
+                    <div class="vertical-desc">
+                        Mantora Public School
+                        (2017-2019)
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="foot-first">
+                <h3>Anamika's portfolio</h3>
+            </div>
+            <div class="foot-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Certificates</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+           <!--<div class="foot-third">
+                <ul>
+                    <li>h</li>
+                    <li>k</li>
+                    <li>h</li>
+                    <li>o</li>
+                </ul>
+            </div>-->
+            <div class="foot-fourth">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/anamika-singh-8b4a32275/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/explore.version_2.0/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.credly.com/users/anamika-singh.1c5c570e/badges" target="_blank"><i class="fa fa-star"></i></a></li>
+                    <li><a href="https://www.hackerrank.com/Anamikacsds31005?hr_r=1" target="_blank"><i class="fa fa-laptop-code"></i></a></li>
+                    <li><a href="https://leetcode.com/Anamika__singh/" target="_blank"><i class="fa fa-link"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-cen">
+            www.anamika_portfolio.com| All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web designer', 'ui/ux developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
